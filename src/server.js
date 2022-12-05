@@ -51,7 +51,7 @@ function getMyAge() {
 
 
 //Weight loss
-app.intent('myAge', conv => {
+app.intent('Age', conv => {
 
 
 
