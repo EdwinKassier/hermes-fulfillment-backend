@@ -23,7 +23,6 @@ const {
 
 console.log('starting...')
 
-//For starting Ngrok server ngrok http -subdomain=cortex_chatbot 8080
 
 //Local hosting of server
 const express = require('express')
