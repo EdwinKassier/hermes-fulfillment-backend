@@ -53,9 +53,11 @@ function getMyAge() {
 //Weight loss
 app.intent('Age', conv => {
 
+    var today = new Date();
 
 
-    conv.ask('As of today, Edwin is ' + getMyAge() + ' years old');
+
+    conv.ask('As of today ('+today.toISOString().substring(0, 10)+'), Edwin is ' + getMyAge() + ' years old');
 
 
     
