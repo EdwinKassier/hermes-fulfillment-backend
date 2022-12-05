@@ -39,7 +39,7 @@ const app = dialogflow({})
 */
 
 function getMyAge() {
-    var ageInMilliseconds = new Date() - new Date('1997-04-23');
+    var ageInMilliseconds = new Date() - new Date('1996-09-15');
     return Math.floor(ageInMilliseconds/1000/60/60/24/365); // convert to years
  }
 
